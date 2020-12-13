@@ -12,9 +12,10 @@ koszyk = [
 
 p = koszyk[i]
 alergeny = p['alergeny'].split(',')
-max=len(koszyk[j])
-while j < max :
-
+# max=len(koszyk[j])
+# while j < max :
+for value in variable:
+    pass
     if 'laktoza' in alergeny and 'orzeszki' in alergeny:
         print('bingo, dzwon do szpitlaa')
     elif 'laktoza' in alergeny:
@@ -24,7 +25,7 @@ while j < max :
     else:
         print('bezpieczne jedzenie')
 
-    j+=1
+    # j+=1
 
 # if 'alergeny' : 'laktoza' and 'alergeny' : 'orzeszki' :
 #     print("nie mozesz kupic")
